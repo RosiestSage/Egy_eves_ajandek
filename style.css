@@ -1,0 +1,49 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.hatterszin {
+    background-color: #EE82EE;
+}
+
+.navbar{
+    border-bottom: 3px black solid;
+    
+}
+
+.navbar-brand{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 200%;
+}
+
+.kezzelirott{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 180%;
+}
+
+.kozep{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.kek_nagy_cim{
+    color: rgb(54, 54, 224);
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.piros_nagy_cim{
+    color: rgb(206, 91, 91);
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bevezeto{
+    text-align: center;
+    font-size: 150%;
+}
+
+.stickytopszar{
+    margin-top: 12%;
+}
