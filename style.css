@@ -1,6 +1,11 @@
 body{
     height: 100%;
     width: 100%;
+
+}
+
+.hatter{
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .hatterszin {
@@ -8,35 +13,35 @@ body{
 }
 
 .navbar{
-    border-bottom: 3px black solid;
-    
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
 }
 
 .navbar-brand{
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: "Sevillana", cursive;
     font-size: 200%;
 }
 
 .kezzelirott{
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: "Sevillana", cursive;
     font-size: 180%;
 }
 
 .kozep{
-    width: fit-content;
+    text-align: center;
     margin: 0 auto;
 }
 
 .kek_nagy_cim{
     color: rgb(54, 54, 224);
     font-size: 250%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Permanent Marker", cursive;
 }
 
 .piros_nagy_cim{
     color: rgb(206, 91, 91);
     font-size: 250%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Permanent Marker", cursive;
 }
 
 .bevezeto{
@@ -45,5 +50,19 @@ body{
 }
 
 .stickytopszar{
-    margin-top: 12%;
+    padding-top: 8%;
 }
+.row{
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.lebegő-kep{
+    position: absolute;
+    height: 25%;
+    top: 20%;
+    left: 10%;
+    z-index: -2;
+    transform: rotate(-20deg);
+}
+
