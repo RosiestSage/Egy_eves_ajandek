@@ -8,7 +8,7 @@
     .hatter{
         width: auto;
         background-color: rgba(255, 255, 255, 0.7);
-        padding: 0 0 20% 0;
+        padding: 0 0 30% 0;
     }
     
     .hatterszin {
@@ -60,18 +60,26 @@
     .kek_nagy_cim{
         color: rgb(54, 54, 224);
         font-size: 250%;
-        font-family: "Permanent Marker", cursive;
+        font-family: "Matemasie", sans-serif;
     }
     
     .piros_nagy_cim{
         color: rgb(206, 91, 91);
         font-size: 250%;
-        font-family: "Permanent Marker", cursive;
+        font-family: "Matemasie", sans-serif;
+    }
+
+    .piros_nagy_cim a{
+        text-decoration: none;
+        color: none;
+        color: rgb(206, 91, 91);
     }
     
     .bevezeto{
         text-align: center;
         font-size: 150%;
+        padding: 0 10% ;
+        font-family: "Gloria Hallelujah";
     }
     
     .stickytopszar{
@@ -85,7 +93,7 @@
 
     .lebego_kep_1{
         position: absolute;
-        height: 25%;
+        height: 30%;
         top: 15%;
         left: 10%;
         z-index: -5;
@@ -103,7 +111,7 @@
 
     .lebego_kep_3{
         position: absolute;
-        height: 25%;
+        height: 30%;
         top: 70%;
         left: 20%;
         z-index: -5;
@@ -122,7 +130,7 @@
     .hatter{
         width: auto;
         background-color: rgba(255, 255, 255, 0.7);
-        padding: 0 0 20% 0;
+        padding: 0 0 50% 0;
     }
     
     .hatterszin {
@@ -174,18 +182,26 @@
     .kek_nagy_cim{
         color: rgb(54, 54, 224);
         font-size: 250%;
-        font-family: "Permanent Marker", cursive;
+        font-family: "Matemasie", sans-serif;
     }
     
     .piros_nagy_cim{
         color: rgb(206, 91, 91);
         font-size: 250%;
-        font-family: "Permanent Marker", cursive;
+        font-family: "Matemasie", sans-serif;
+    }
+
+    .piros_nagy_cim a{
+        text-decoration: none;
+        color: none;
+        color: rgb(206, 91, 91);
     }
     
     .bevezeto{
         text-align: center;
         font-size: 150%;
+        padding: 0 5%;
+        font-family: "Gloria Hallelujah";
     }
     
     .stickytopszar{
@@ -199,7 +215,7 @@
 
     .lebego_kep_1{
         position: absolute;
-        height: 20%;
+        height: 35%;
         top: 20%;
         left: 10%;
         z-index: -5;
@@ -208,17 +224,17 @@
     
     .lebego_kep_2{
         position: absolute;
-        height: 25%;
+        height: 20%;
         top: 35%;
-        left: 70%;
+        left: 60%;
         z-index: -5;
         transform: rotate(-30deg);
     }
 
     .lebego_kep_3{
         position: absolute;
-        height: 20%;
-        top: 55%;
+        height: 30%;
+        top: 80%;
         left: 20%;
         z-index: -5;
         transform: rotate(20deg);
@@ -292,19 +308,26 @@
     .kek_nagy_cim{
         color: rgb(54, 54, 224);
         font-size: 250%;
-        font-family: "Permanent Marker", cursive;
+        font-family: "Matemasie", sans-serif;
     }
     
     .piros_nagy_cim{
         color: rgb(206, 91, 91);
         font-size: 250%;
-        font-family: "Permanent Marker", cursive;
+        font-family: "Matemasie", sans-serif;
         margin-bottom: 10%;
     }
     
+    .piros_nagy_cim a{
+        text-decoration: none;
+        color: none;
+        color: rgb(206, 91, 91);
+    }
+
     .bevezeto{
         text-align: center;
         font-size: 150%;
+        font-family: "Gloria Hallelujah";
     }
     
     .stickytopszar{
@@ -329,7 +352,7 @@
         position: absolute;
         height: 20%;
         top: 70%;
-        left: 50%;
+        left: 30%;
         z-index: -5;
         transform: rotate(-30deg);
     }
@@ -343,3 +366,5 @@
         transform: rotate(20deg);
     }
 } 
+
+
